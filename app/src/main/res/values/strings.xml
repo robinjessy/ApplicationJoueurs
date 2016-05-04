@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="titre_boutons">Boutons</string>
+
+    <string name="federer"><![CDATA[  <p><b>Roger Federer</b> est un joueur de tennis suisse né le 8 août 1981 à Bale.</p>
+    <p> Joueur professionnel depuis 1998,</p>
+    <p>il détient le record de 302 semaines passées à la première place du class</p>  ]]></string>
+
+    <string name="nadal"><![CDATA[  <p><b>Raph Nadal</b> est un joueur de tennis suisse né le 8 août 1981 à Bale.</p>
+    <p> Joueur professionnel depuis 1998,</p>
+    <p>il détient le record de 302 semaines passées à la première place du class</p>  ]]></string>
+
+    <string name="schiavone"><![CDATA[  <p><b>Truc schiavone</b> est un joueur de tennis suisse né le 8 août 1981 à Bale.</p>
+    <p> Joueur professionnel depuis 1998,</p>
+    <p>il détient le record de 302 semaines passées à la première place du class</p>  ]]></string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:gravity="center"
+    tools:showIn="@layout/activity_main"
+    android:measureWithLargestChild="false">
+
+
+    <Button
+        style="@style/boutonsPerso"
+        android:id="@+id/federer"
+        android:background="@mipmap/federer" />
+
+    <Button
+        style="@style/boutonsPerso"
+        android:id="@+id/nadal"
+        android:background="@mipmap/nadal" />
+
+    <Button
+        style="@style/boutonsPerso"
+        android:id="@+id/schiavone"
+        android:background="@mipmap/schiavone" />
+
+</LinearLayout>
