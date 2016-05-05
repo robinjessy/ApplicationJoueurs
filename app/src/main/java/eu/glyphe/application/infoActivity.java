@@ -5,6 +5,7 @@ import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.View;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -38,10 +39,8 @@ public class infoActivity extends AppCompatActivity {
         int idjoueur  = 0;
         switch (intent.getIntExtra("NAME", 0)){
             case R.id.federer:
-                this.titre.setText("R. Federer");
-                idjoueur = R.string.federer;
-                this.jour.setText("vendredi 25 mai 2014");
-                break;
+                Intent wiki = new Intent(this,webview.class);
+                startActivity(wiki);
 
             case R.id.nadal:
                 this.titre.setText("R. Nadal");
